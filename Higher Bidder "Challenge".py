@@ -16,7 +16,8 @@ Logo = ('''
 ''')
 
 print (Logo)
-key = str(input('what is your name? :'))
-key = str(input('what is your bid? :'))
-other_bidders = str(input('Are they any other bidder? TYPE "YES" or "NO":'))
+
+# key = str(input('what is your name? :'))
+# key = str(input('what is your bid? :'))
+# other_bidders = str(input('Are they any other bidder? TYPE "YES" or "NO":'))
 
