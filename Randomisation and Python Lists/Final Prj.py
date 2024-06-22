@@ -41,8 +41,8 @@ scissors = '''
 user_choice = int(input('What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n')) #! USER INPUT HER CHOICE
 
 choices = [rock, paper, scissors] #! MERGE ROCK, PAPER, SCISSORS IN ONE VARIABLE TO LET COMPUTER CHOICE A RANDOM ITEM
-computer_choice = random.choice(choices) #! FUNCTION TO LET COMPUTER CHOICE A RANDOM ITEM
-user_image = (choices[user_choice])
+computer_choice = random.choice(choices) #! FUNCTION TO LET COMPUTER CHOICE A RANDOM ITEM AND CONVERT IT TO IMAGE
+user_image = (choices[user_choice]) #! CONVERT USER CHOICE TO IMAGE
 
 # print(f'User choice: {user_image}\n Computer Choice: {computer_choice}')
 
