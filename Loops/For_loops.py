@@ -70,9 +70,6 @@ for bc in mapping:
 
 
         
-    
-
-
 
 
 
