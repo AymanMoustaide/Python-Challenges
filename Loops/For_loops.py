@@ -44,14 +44,14 @@
 
 #_ CODE EXERCISE TWO (HOW MUCH THIS COMPANY WORTH)
 
-available_cars = ['AUDI', 'NISSAN', 'ROLLS ROYCE', 'MERCEDES','FERRARI']
-each_car_price = ['100000', '80000', '250000', '90000', '120000']
+# available_cars = ['AUDI', 'NISSAN', 'ROLLS ROYCE', 'MERCEDES','FERRARI']
+# each_car_price = ['100000', '80000', '250000', '90000', '120000']
 
-cars_price = [available_cars, each_car_price]
+# cars_price = [available_cars, each_car_price]
 
-mapping = dict(zip(available_cars, each_car_price)) #! Assinge values in one list to another list using (dict(zip))
+# mapping = dict(zip(available_cars, each_car_price)) #! Assinge values in one list to another list using (dict(zip))
 
-mapping_list = list(mapping.items()) #Convert the dictionary to a list of tuples
+# mapping_list = list(mapping.items()) #Convert the dictionary to a list of tuples
 
 # print(mapping_list[0])
 
@@ -59,22 +59,12 @@ mapping_list = list(mapping.items()) #Convert the dictionary to a list of tuples
 #     print(av)
 
 
-#_ bc = buyer choicen car
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
 
+for dessert in favorites:
+    if dessert == 'Apple Pie':
+        print('Yes one of my favorite desserts is', dessert)
+        break #! If this block become True , It's ignore else: 
 
-buyer = input('WHAT IS YOUR DREAM CAR:\n')
-for bc in mapping:
-    if bc == buyer:
-
-        print(f"The price of your dream car, {buyer}, is ${mapping[buyer]}.")
-
-
-        
-
-
-
-
-
-
-# for ecp in range(0, len(each_car_price)):
-#     print(each_car_price[ecp])
+    else:
+        print('No sorry, not a dessert on my list')
