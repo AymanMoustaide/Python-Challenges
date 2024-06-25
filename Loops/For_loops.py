@@ -59,12 +59,22 @@
 #     print(av)
 
 
-favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+#_ CODE EXERCISE FIZZ BUZZ GAME 
 
-for dessert in favorites:
-    if dessert == 'Apple Pie':
-        print('Yes one of my favorite desserts is', dessert)
-        break #! If this block become True , It's ignore else: 
+#! Your program should print each number from 1 to 100 in turn.
 
-    else:
-        print('No sorry, not a dessert on my list')
+
+# for i in range(1, 101):
+#     print (i)
+#     if i % 5 == 0:
+#         i = 'Buzz'
+#         print(i)
+# When the number is divisible by 3 then instead of printing the number it should print "Fizz".
+# I
+# When the number is divisible by 5, then instead of printing the number it should print "Buzz".
+# And if the number is divisible by both 3 and 5 e.g.
+# 15 then instead of the number it should print "FizzBuzz"
+
+number = int(input())
+
+print(number)
