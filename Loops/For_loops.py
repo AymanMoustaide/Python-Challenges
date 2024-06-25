@@ -75,6 +75,32 @@
 # And if the number is divisible by both 3 and 5 e.g.
 # 15 then instead of the number it should print "FizzBuzz"
 
-number = int(input())
 
-print(number)
+
+#_________________
+# n = int(input())
+
+# if n % 2 == 1:
+#     print('Weird')
+# elif 2 <= n <= 5 and n % 2 == 0:
+#     print("Not Weird")
+# elif 6 <= n <= 20 and n % 2 == 0:
+#     print("Weird")
+# elif n > 20 and n % 2 == 0:
+#     print("Not Weird") 
+
+#//                  
+
+# a=int(input())
+# b=int(input())
+# print(a//b)
+
+#! SQUARE
+# n = int(input())
+# for x in range(n):
+#     print(x ** 2)
+
+n = int(input("Enter a number: ").strip())
+
+for x in range(1, n + 1):
+    print(x, end='')
