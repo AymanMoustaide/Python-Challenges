@@ -87,6 +87,4 @@ import random
 #//----------                        END                             -------------##
 
 
-
-
-
+u_3_n = input('FIRST ENTER YOUR NAME:\n')

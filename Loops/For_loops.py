@@ -100,7 +100,26 @@
 # for x in range(n):
 #     print(x ** 2)
 
-n = int(input("Enter a number: ").strip())
 
-for x in range(1, n + 1):
-    print(x, end='')
+#! 
+# n = int(input("Enter a number: ").strip())
+
+# for x in range(1, n + 1):
+#     print(x, end='')
+
+# count = 1 
+# while count < 5:
+#     count += 1
+#     print(count)
+
+
+# We'll print the number of read or unread notifications that a user received.
+# 1. If  u⁠n⁠r⁠e⁠a⁠d⁠  is not  0⁠ , print  Y⁠o⁠u⁠ h⁠a⁠v⁠e⁠ {⁠u⁠n⁠r⁠e⁠a⁠d⁠}⁠ u⁠n⁠r⁠e⁠a⁠d⁠ m⁠e⁠s⁠s⁠a⁠g⁠e⁠s⁠ . Use f-string to display the value of  u⁠n⁠r⁠e⁠a⁠d⁠  inside the string.
+# 2. Else print  N⁠o⁠ u⁠n⁠r⁠e⁠a⁠d⁠ m⁠e⁠s⁠s⁠a⁠g⁠e⁠s⁠.⁠ C⁠h⁠e⁠c⁠k⁠ y⁠o⁠u⁠r⁠ {⁠r⁠e⁠a⁠d⁠}⁠ r⁠e⁠a⁠d⁠ m⁠e⁠s⁠s⁠a⁠g⁠e⁠s⁠ . Use f-string to display the value of  r⁠e⁠a⁠d⁠  inside the string.
+
+reminder_count = 0
+while reminder_count < 3:
+    reminder_count += 1
+    
+    print("Reminder: Stop the bot!")
+    
