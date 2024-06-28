@@ -2,6 +2,8 @@ import random
 import TC
 from RandomisationandPythonLists import Final_Prj
 
+hjs = ''
+
 def game_1():
 
     while True:
@@ -16,8 +18,8 @@ def game_1():
             print(f'{u_1} WIN, {u_2} LOSS')
 
             #! STORE WINNER NAME
-            winner_name = u_1
-            print(winner_name)
+            winner_name_1 = u_1
+            print(winner_name_1)
             break
 
     #! USER TWO WIN
@@ -28,8 +30,8 @@ def game_1():
             print(f'{u_2} WIN, {u_1} LOSS')
             
             #! STORE WINNER NAME
-            winner_name = u_2
-            print(winner_name)
+            winner_name_1 = u_2
+            print(winner_name_1)
             break
 
     #! USER TWO WIN 
@@ -40,8 +42,8 @@ def game_1():
             print(f'{u_2} WIN, {u_1} LOSS')
 
             #! STORE WINNER NAME
-            winner_name = u_2
-            print(winner_name)
+            winner_name_1 = u_2
+            print(winner_name_1)
             break
         
     #! USER ONE WIN 
@@ -52,8 +54,8 @@ def game_1():
             print(f'{u_1} WIN, {u_2} LOSS')
 
             #! STORE WINNER NAME
-            winner_name = u_1
-            print(winner_name)
+            winner_name_1 = u_1
+            print(winner_name_1)
             break
 
     #! DRAW CONDITION:
@@ -80,4 +82,4 @@ u1i = u_1_n
 u2i = u_2_n
 
 #! START THE GAME      
-# game_1()
+game_1()

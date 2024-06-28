@@ -159,20 +159,20 @@ def game_2():
 
 
 
-# def write_name_on_paper():
-#     paper = input('WRITE YOUR NAME:\n')
+def write_name_on_paper():
+    paper = input('WRITE YOUR NAME:\n')
     
-#     list_of_peopel = paper.split()
-#     waiter = random.choice(list_of_peopel)
+    list_of_peopel = paper.split()
+    waiter = random.choice(list_of_peopel)
     
-#     print(f'{TC.red_s}I CHOOSE {waiter.upper()}{TC.red_e}')
+    print(f'{TC.red_s}I CHOOSE {waiter.upper()}{TC.red_e}')
 
-#     wpa = input(f'{TC.bleu_s}WANNA PLAY AGAIN?:{TC.bleu_e}\n')
+    wpa = input(f'{TC.bleu_s}WANNA PLAY AGAIN?:{TC.bleu_e}\n')
 
-#     if wpa == 'yes':
-#         write_name_on_paper()
-#     elif wpa == 'no':
-#         print(f'{TC.green_s}{waiter.upper()}{TC.green_e} GONNA PAY THE BILL, SEE YOU GUYS NEXT TIME :)')
+    if wpa == 'yes':
+        write_name_on_paper()
+    elif wpa == 'no':
+        print(f'{TC.green_s}{waiter.upper()}{TC.green_e} GONNA PAY THE BILL, SEE YOU GUYS NEXT TIME :)')
 
     
 

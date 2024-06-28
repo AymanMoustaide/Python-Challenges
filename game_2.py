@@ -2,21 +2,24 @@ import random
 import TC
 from RandomisationandPythonLists import Final_Prj
 
+
 def game_2():
+    
     while True:
         u_3 = random.choice(rps)
         u_4 = random.choice(rps)
+        
 
     #! USER ONE WIN     
         if rps.index(u_3) == 0 and rps.index(u_4) == 2:
             print (f'{u_3}\n{u_4}')
             u_3 = u3i
             u_4 = u4i
+            print(f'{u_3} WIN, {u_4} LOSS')
 
     #! STORE WINNER NAME
-            winner_name = u_3
-            print(winner_name)
-            print(f'{u_3} WIN, {u_4} LOSS')
+            winner_name_2 = u_3
+            print(winner_name_2)
             break
 
     #! USER TWO WIN
@@ -24,11 +27,10 @@ def game_2():
             print (f'{u_3}\n{u_4}')
             u_3 = u3i
             u_4 = u4i
-
-    #! STORE WINNER NAME
-            winner_name = u_4
-            print(winner_name)
             print(f'{u_4} WIN, {u_3} LOSS')
+    #! STORE WINNER NAME
+            winner_name_2 = u_4
+            print(winner_name_2)
             break
 
     #! USER TWO WIN
@@ -36,11 +38,10 @@ def game_2():
             print (f'{u_3}\n{u_4}')
             u_3 = u3i
             u_4 = u4i
-
-    #! STORE WINNER NAME
-            winner_name = u_4
-            print(winner_name)
             print(f'{u_4} WIN, {u_3} LOSS')
+    #! STORE WINNER NAME
+            winner_name_2 = u_4
+            print(winner_name_2)
             break
     
     #! USER ONE WIN
@@ -49,6 +50,9 @@ def game_2():
             u_3 = u3i
             u_4 = u4i
             print(f'{u_3} WIN, {u_4} LOSS')
+    #! STORE WINNER NAME
+            winner_name_2 = u_4
+            print(winner_name_2)
             break
 
     #! DRAW CONDITION
@@ -64,7 +68,6 @@ def game_2():
                 print('OKK')
                 break
 
-
 rps = [Final_Prj.rock, Final_Prj.paper, Final_Prj.scissors]
 
 #! THIRD AND FORTH PERSON
@@ -75,4 +78,4 @@ u3i = u_3_n
 u4i = u_4_n
 
 #! START THE GAME       
-# game_2()
+game_2()
