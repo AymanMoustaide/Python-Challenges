@@ -1,11 +1,9 @@
-def is_leap(year):
-    leap = False
-    
-    # Write your logic here
-    if int(year) == 2005:
-        leap == True
 
-    return leap
+# Joe records how much money he saved every month in a list called  s⁠a⁠v⁠i⁠n⁠g⁠s⁠ . 
+# Help Joe calculate his total savings for the year using  s⁠u⁠m⁠(⁠)⁠  and print the result in the console.
 
-year = int(input())
-print(is_leap(year))
+savings = [122, 50, 102, 103, 79, 46, 107, 9, 13, 91, 193, 4]
+
+
+print(sum(savings))
+
