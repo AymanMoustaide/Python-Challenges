@@ -1,3 +1,6 @@
+
+#_ CHANGE TERMINAL COLORS CODES
+
 red_s = '\033[31m'
 red_e = '\033[0m'
 
