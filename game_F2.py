@@ -1,5 +1,5 @@
 import random
-import TC 
+from TC import green_s,green_e,red_s,red_e
 from RandomisationandPythonLists import Final_Prj
 
 
@@ -17,7 +17,7 @@ def game_2():
             print (f'{u_3}\n{u_4}')
             u_3 = u3i
             u_4 = u4i
-            print(f'{TC.green_s}{u_3.upper()} WIN{TC.green_e}, {u_4.upper()} LOSS')
+            print(f'{green_s}{u_3.upper()} WIN{green_e}, {u_4.upper()} LOSS')
 
     #! STORE WINNER NAME
             winner_name_2 = u_3
@@ -29,7 +29,7 @@ def game_2():
             print (f'{u_3}\n{u_4}')
             u_3 = u3i
             u_4 = u4i
-            print(f'{TC.green_s}{u_4.upper()} WIN{TC.green_e}, {u_3.upper()} LOSS')
+            print(f'{green_s}{u_4.upper()} WIN{green_e}, {u_3.upper()} LOSS')
     #! STORE WINNER NAME
             winner_name_2 = u_4
             #// print(winner_name_2)
@@ -40,7 +40,7 @@ def game_2():
             print (f'{u_3}\n{u_4}')
             u_3 = u3i
             u_4 = u4i
-            print(f'{TC.green_s}{u_4.upper()} WIN{TC.green_e}, {u_3.upper()} LOSS')
+            print(f'{green_s}{u_4.upper()} WIN{green_e}, {u_3.upper()} LOSS')
     #! STORE WINNER NAME
             winner_name_2 = u_4
             #// print(winner_name_2)
@@ -51,7 +51,7 @@ def game_2():
             print (f'{u_3}\n{u_4}')
             u_3 = u3i
             u_4 = u4i
-            print(f'{TC.green_s}{u_3.upper()} WIN{TC.green_e}, {u_4.upper()} LOSS')
+            print(f'{green_s}{u_3.upper()} WIN{green_e}, {u_4.upper()} LOSS')
     #! STORE WINNER NAME
             winner_name_2 = u_4
             #// print(winner_name_2)
@@ -63,11 +63,11 @@ def game_2():
             u_3 = u4i
             u_4 = u4i
         #! IF DRAW WE NEED TO REPLAY THE GAME
-            restart = input(f'{TC.red_s}THIS IS A DRAW, PRESS "R" TO PLAY AGAIN:{TC.red_e}\n')
+            restart = input(f'{red_s}THIS IS A DRAW, PRESS "R" TO PLAY AGAIN:{red_e}\n')
             if restart == 'R':
                 continue
             else:
-                print(f"{TC.red_s}SORRY WE CAN'T KNOW WHO WIN{TC.red_e}")
+                print(f"{red_s}SORRY WE CAN'T KNOW WHO WIN{red_e}")
                 break
     return  winner_name_2
 
