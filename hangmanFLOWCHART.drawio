@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T21:50:17.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="DtGHHfQnn0P-A8-wEQ63" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T22:12:31.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="snZ34eYUSsixAhOogDKz" version="24.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_09lwp1NYxmp2LlX2rCI-1" target="_09lwp1NYxmp2LlX2rCI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_09lwp1NYxmp2LlX2rCI-1" target="_09lwp1NYxmp2LlX2rCI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-1" value="Welcome to Taxi App!&amp;nbsp;&lt;div&gt;Please Choice Are You&amp;nbsp;&lt;/div&gt;&lt;div&gt;A Driver Or Passenger ?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="327" y="220" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-3" value="Driver&lt;div&gt;(Enter Your Taxi ID and Password)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="17" y="330" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_09lwp1NYxmp2LlX2rCI-5" target="_09lwp1NYxmp2LlX2rCI-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="727" y="430" />
+              <mxPoint x="727" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-5" value="Passenger&lt;div&gt;(Enter Your Login And Password)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="627" y="330" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_09lwp1NYxmp2LlX2rCI-17" target="_09lwp1NYxmp2LlX2rCI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_09lwp1NYxmp2LlX2rCI-17" target="_09lwp1NYxmp2LlX2rCI-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-17" value="Check Login and password in (Passenger DB)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#666600;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="527" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-35" value="Choice Your City Destination&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="447" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-37" value="Login Failed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF9999;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="507" y="410" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-39" value="Login Failed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#00CC00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="507" y="520" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-42" value="&lt;b&gt;Passanger DataBase&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="40" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-43" value="Username" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-42">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-44" value="Password" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-42">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-45" value="Full Name" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-42">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-46" value="&lt;b&gt;Driver DataBase&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="40" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-47" value="Taxi ID" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-46">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-48" value="Password" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-46">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-49" value="Full Name" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-46">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-50" value="&lt;b&gt;Cities&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="40" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-51" value="City Name" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-50">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-52" value="Current City" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-50">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_09lwp1NYxmp2LlX2rCI-53" value="kk" style="text;strokeColor=none;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_09lwp1NYxmp2LlX2rCI-50">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
